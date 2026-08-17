@@ -9,5 +9,5 @@ class Solution:
                 charset.remove(s[l])
                 l+=1
             charset.add(s[r])
-            maxcount = max(maxcount,len(charset))
+            maxcount = max(maxcount,r - l  + 1)
         return maxcount
