@@ -10,7 +10,6 @@ class Solution:
         while curr:
             arr.append(curr.val)
             curr = curr.next
-
         arr.sort()
         curr = head
         for val in arr:
